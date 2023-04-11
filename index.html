@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UmbrellaLogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id = "contcolor">
+        <div class="subContainer">
+            <div class="main">
+                <div class="left">
+                    <img src="pinkumbrella.png" id = "myImg" alt="">
+                    <img src="loader_icon.svg" class = "loader" id = "loadimage" alt="">
+                    <div id="display_logo"></div>
+                </div>
+                <div class="right">
+                    <div class = "custom">CUSTOM UMBRELLA</div>
+                    <div class="colorbox">
+                        <button onclick='changeImagePink()'
+                        class="pinkcirclebtn" id = "btnpink"></button>
+
+                         <button onclick="changeImageYellow()" 
+                        class="yellowcirclebtn" id = "btnyellow"></button>
+
+                        <button onclick='changeImageBlue()'
+                         class="bluecirclebtn" id = "btnblue" ></button> 
+                    </div>
+                    <div class = "customize">Customize Your Umbrella</div>           
+                    <div class="para1">Upload a logo for an instant preview.</div>
+                    <div class = "para2">.png and .jpg files only.Max file size is 5mb</div>
+                    <!-- <input required type="file" id="file" /> -->
+                    <div  >
+                        <input required type="file" id="file" accept="image/png, image/jpg, image/jpeg"/>
+                        <label for="file" class = "uploadbutton" id = "uploadbtn">
+                            <img class = "uploadimg" src="upload_icon.svg" alt="">
+                            &nbsp;
+                            UPLOAD LOGO
+                        </label>
+
+                    </div class = "uploadbtn">
+
+                    
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
+
+
+
+ <!-- <img class = "uploadimg" src="upload_icon.svg" alt=""> -->
+                        <!-- <label>UPLOAD LOGO</label> -->
+                        <!-- <input type = "file" placeholder="UPLOAD LOGO"> -->
